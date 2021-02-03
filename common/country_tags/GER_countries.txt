@@ -1,0 +1,8 @@
+PUR = "countries/east_ger_pur.txt"
+NGC = "countries/east_ger_NGC.txt"
+HAN = "countries/east_ger_HAN.txt"
+SLE = "countries/east_ger_SLE.txt"
+BAV = "countries/west_ger_BAV.txt"
+SAX = "countries/west_ger_SAX.txt"
+BOH = "countries/east_ger_BOH.txt"
+NED = "countries/west_ger_ned.txt"

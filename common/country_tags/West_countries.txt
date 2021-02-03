@@ -1,0 +1,3 @@
+RUS	= "countries/russia.txt"
+UOW	= "countries/uow.txt"
+KOI = "countries/KOI.txt"
