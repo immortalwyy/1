@@ -1,0 +1,379 @@
+ideologies = {
+	
+	communism = {
+	
+		types = {
+			
+			nationalbolschewismus = {}
+			
+			maoism = {}
+			
+			trotskyism = {}
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 200 0 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 1	# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.45
+		
+		modifiers = {
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 0.20
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 2.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 1
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0 
+		}
+		ai_communist = yes
+	}
+
+
+	syndicalism = {
+		
+		types = {
+			
+			nationalsozialismus = {}
+			
+			left_populism = {}
+			
+			revo_syndicalism = {}
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes 
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 5
+			army_intel_to_others = 4
+			navy_intel_to_others = 10
+			airforce_intel_to_others = 5
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 0.20
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	anarchism = {
+		
+		types = {
+			
+			national_anarchism = {}
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 150 0 0 }
+		
+		war_impact_on_world_tension = 0.5		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes 
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = no
+		}
+		
+		can_collaborate = yes
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			civilian_intel_to_others = 20
+			army_intel_to_others = 20
+			navy_intel_to_others = 40
+			airforce_intel_to_others = 35
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 1
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	despotism = {
+	
+		types = {
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 105 105 105 }
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 1	# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.45
+		
+		modifiers = {
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 0.20
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 2.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 1
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0 
+		}
+		ai_neutral = yes
+	}
+
+
+	social_democracy = {
+		
+		types = {
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 255 20 147 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes 
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 5
+			army_intel_to_others = 4
+			navy_intel_to_others = 10
+			airforce_intel_to_others = 5
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 0.20
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	social_liberalism = {
+		
+		types = {
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 0 255 0 }
+		
+		war_impact_on_world_tension = 0.5		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_neutral = yes
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = no
+		}
+		
+		can_collaborate = yes
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			civilian_intel_to_others = 20
+			army_intel_to_others = 20
+			navy_intel_to_others = 40
+			airforce_intel_to_others = 35
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 1
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	authoritarian_democracy = {
+	
+		types = {
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 0 0 128 }
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 1	# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.45
+		
+		modifiers = {
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 0.20
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 2.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 1
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0 
+		}
+		ai_neutral = yes
+	}
+
+
+	market_liberalism = {
+		
+		types = {
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 0 191 255 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes 
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 5
+			army_intel_to_others = 4
+			navy_intel_to_others = 10
+			airforce_intel_to_others = 5
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 0.20
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	anarcho_liberalism = {
+		
+		types = {
+
+			
+		}
+		
+		dynamic_faction_names = {
+			
+		}
+		
+		color = { 255 255 0 }
+		
+		war_impact_on_world_tension = 0.5		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_neutral = yes
+		
+		rules = {
+			can_force_government = yes
+			can_guarantee_other_ideologies = no
+		}
+		
+		can_collaborate = yes
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			civilian_intel_to_others = 20
+			army_intel_to_others = 20
+			navy_intel_to_others = 40
+			airforce_intel_to_others = 35
+			generate_wargoal_tension = 0.30
+			join_faction_tension = 1
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+
+}
